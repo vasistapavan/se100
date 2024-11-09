@@ -1,0 +1,28 @@
+h1 {
+    color: #0066ff;
+}
+
+
+.company-info {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+
+.stock-details {
+  margin-top: 20px;
+}
+
+
+.stock-details p {
+  font-style: italic;
+}
+
+
+.stock-details .current-price p {
+  color: green;
+}
+
+.stock-details .price-change p{
+  color: red;
+}
