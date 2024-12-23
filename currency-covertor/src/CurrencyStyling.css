@@ -1,0 +1,33 @@
+.flex-dropdown {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  margin: 10px;
+}
+
+#currencySelect {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 50px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 4px;
+  color: black;
+  font-weight: bolder;
+  padding: 5px;
+  background-color: #e9c46a;
+}
+
+.converter-input {
+  height: 50px;
+  padding: 5px;
+  font-size: medium;
+  border-color: grey;
+}
+
+.converter-result {
+  font-size: 30px;
+}
