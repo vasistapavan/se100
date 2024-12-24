@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import CurrencyDropdown from "./CurrencyDropdown";
+import CurrencyDropdown from "./components/CurrencyDropdown";
 import CurrencyContext from "./context/CurrencyContext";
 
 function App() {

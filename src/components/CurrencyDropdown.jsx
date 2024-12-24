@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import "./CurrencyStyling.css";
 import CurrencyConverter from "./CurrencyCoverter";
-import CurrencyContext from "./context/CurrencyContext";
+import CurrencyContext from "../context/CurrencyContext";
 
 function CurrencyDropdown() {
   const [currencyList, setCurrencyList] = useState([]);
